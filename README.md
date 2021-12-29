@@ -5,6 +5,8 @@ instalasi :
 git clone https://github.com/Kopen1/gpu && cd gpu && sh start.sh 
 <br><br>
 <h2> CONSOLE_COLAB <h2>
+  <p> akses console : ctrl + shift + k 
+    <br>
 <br>
 async function eternalMode() {
 
